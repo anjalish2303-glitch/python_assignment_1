@@ -1,0 +1,44 @@
+# Task 6
+
+# Collecting profile data
+name = input("Enter your full name: ")
+roll_no = input("Enter your roll number: ")
+course = input("Enter your course: ")
+university = input("Enter your university name: ")
+city = input("Enter your city: ")
+age = float(input("Enter your age: "))
+hobby = input("Enter your hobby: ")
+
+# Display formatted profile
+print("\n----------------------------------------")
+print("        STUDENT PROFILE SYSTEM          ")
+print("----------------------------------------")
+print(f"Name:            {name}")
+print(f"Roll No:         {roll_no}")
+print(f"Course:          {course}")
+print(f"University:      {university}")
+print(f"City:            {city}")
+print(f"Age:             {age}")
+print(f"Hobby:           {hobby}")
+print("----------------------------------------")
+print("Welcome to Python Programming !")
+
+save_choice = input("\nDo you want to save your profile? (yes/no): ").strip().lower()
+
+if save_choice == "yes":
+    with open("student_profile.txt", "w") as file:
+        file.write("----------------------------------------\n")
+        file.write("        STUDENT PROFILE SYSTEM          \n")
+        file.write("----------------------------------------\n")
+        file.write(f"Name:            {name}\n")
+        file.write(f"Roll No:         {roll_no}\n")
+        file.write(f"Course:          {course}\n")
+        file.write(f"University:      {university}\n")
+        file.write(f"City:            {city}\n")
+        file.write(f"Age:             {age}\n")
+        file.write(f"Hobby:           {hobby}\n")
+        file.write("----------------------------------------\n")
+        file.write("Welcome to Python Programming !\n")
+    print(" Profile saved successfully to student_profile.txt")
+else:
+    print(" Profile not saved.")

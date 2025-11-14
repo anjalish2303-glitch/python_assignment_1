@@ -1,0 +1,20 @@
+# Task 4: Python Strings & Formatting
+
+# Input student name and hobby
+student_name = input("Enter your full name: ")
+hobby = input("Enter your favorite hobby: ")
+
+# String Concatenation
+intro = "Hello, my name is " + student_name + " and I love " + hobby + "."
+print("\n String Concatenation Result:")
+print(intro)
+
+# f-Strings
+formatted_intro = f"My name is {student_name}, and my hobby is {hobby}."
+print("\n f-String Result:")
+print(formatted_intro)
+
+# Escape Characters
+print("\n Escape Characters Demo:")
+print("Name:\t" + student_name)
+print("Hobby")

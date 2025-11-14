@@ -1,0 +1,23 @@
+#Task 5
+
+# Sample data 
+name = "sneha thakran"
+roll_no = "2501060124"
+course = "BCA (AI & DS)"
+university = "K.R. Mangalam University"
+city = "gurugram"
+age = "18"
+hobby = "listening to music"
+
+print("\n----------------------------------------")
+print("       STUDENT PROFILE SYSTEM")
+print("----------------------------------------")
+print(f"Name:            {name}")
+print(f"Roll No:         {roll_no}")
+print(f"Course:          {course}")
+print(f"University:      {university}")
+print(f"City:            {city}")
+print(f"Age:             {age}")
+print(f"Hobby:           {hobby}")
+print("----------------------------------------")
+print("Welcome to Python Programming!")

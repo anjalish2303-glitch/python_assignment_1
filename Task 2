@@ -1,0 +1,11 @@
+#Task 2
+
+student_name = input("Enter your full name: ")
+roll_no = input("Enter your roll number: ")
+program = input("Enter your program (e.g., BCA): ")
+university = input("Enter your university name: ")
+city = input("Enter your city: ")
+age = int(input("Enter your age: "))
+hobby = input("Enter your hobby: ")
+
+print("Data recorded successfully!")
