@@ -1,20 +1,46 @@
-# Task 4: Python Strings & Formatting
+#  Task 3
 
-# Input student name and hobby
-student_name = input("Enter your full name: ")
-hobby = input("Enter your favorite hobby: ")
+print("\n--- Operator Demonstration ---")
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
-# String Concatenation
-intro = "Hello, my name is " + student_name + " and I love " + hobby + "."
-print("\n String Concatenation Result:")
-print(intro)
+# Arithmetic Operators
+print("\nArithmetic Operators:")
+print(f"{num1} + {num2} = {num1 + num2}")
+print(f"{num1} - {num2} = {num1 - num2}")
+print(f"{num1} * {num2} = {num1 * num2}")
+print(f"{num1} / {num2} = {num1 / num2}")
+print(f"{num1} % {num2} = {num1 % num2}")
+print(f"{num1} ** {num2} = {num1 ** num2}")
+print(f"{num1} // {num2} = {num1 // num2}")
 
-# f-Strings
-formatted_intro = f"My name is {student_name}, and my hobby is {hobby}."
-print("\n f-String Result:")
-print(formatted_intro)
+# Assignment Operators
+a = num1
+a += num2
+print(f"\nAfter a += num2, a = {a}")
+a -= num2
+print(f"After a -= num2, a = {a}")
 
-# Escape Characters
-print("\n Escape Characters Demo:")
-print("Name:\t" + student_name)
-print("Hobby")
+# Comparison Operators
+print("\nComparison Operators:")
+print(f"{num1} == {num2}: {num1 == num2}")
+print(f"{num1} != {num2}: {num1 != num2}")
+print(f"{num1} > {num2}: {num1 > num2}")
+print(f"{num1} < {num2}: {num1 < num2}")
+
+# Logical Operators
+print("\nLogical Operators:")
+print(f"(num1 > 0) and (num2 > 0): {(num1 > 0) and (num2 > 0)}")
+print(f"(num1 > 0) or (num2 < 0): {(num1 > 0) or (num2 < 0)}")
+print(f"not(num1 < num2): {not(num1 < num2)}")
+
+# Identity Operators
+print("\nIdentity Operators:")
+print(f"num1 is num2: {num1 is num2}")
+print(f"num1 is not num2: {num1 is not num2}")
+
+# Membership Operators
+sample_list = [1, 2, 3, 4, 5]
+print("\nMembership Operators:")
+print(f"{num1} in {sample_list}: {num1 in sample_list}")
+print(f"{num2} not in {sample_list}: {num2 not in sample_list}")
