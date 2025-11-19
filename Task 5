@@ -1,13 +1,13 @@
 #Task 5
 
 # Sample data 
-name = "sneha thakran"
-roll_no = "2501060124"
+name = "Anjali Sharma"
+roll_no = "2501060103"
 course = "BCA (AI & DS)"
 university = "K.R. Mangalam University"
 city = "gurugram"
 age = "18"
-hobby = "listening to music"
+hobby = "dance"
 
 print("\n----------------------------------------")
 print("       STUDENT PROFILE SYSTEM")
@@ -20,4 +20,5 @@ print(f"City:            {city}")
 print(f"Age:             {age}")
 print(f"Hobby:           {hobby}")
 print("----------------------------------------")
+
 print("Welcome to Python Programming!")
